@@ -2,4 +2,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  background-color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.header p,
+.header li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header button,
+.signUp,
+.signUp button {
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.header button {
+  border-style: none;
+  border-radius: 3px;
+}
+
+.info h2 {
+  font-size: 36px;
+  color: #1f2837;
+  font-weight: 900;
+}
+
+.signUp button {
+  border: 2px #f9faf8 solid;
+  border-radius: 3px;
 }
