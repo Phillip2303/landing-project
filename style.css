@@ -1,3 +1,5 @@
+/* Basic Style e.g. font-size, etc. */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,11 +21,17 @@ body {
   background-color: #e5e7eb;
 }
 
-.quote p {
+.quote blockquote {
+  font-weight: 300;
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
-  font-weight: 300;
+}
+
+.quote p {
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .header h1 {
@@ -152,4 +160,18 @@ ul {
   width: 200px;
   font-size: 18px;
   text-align: center;
+}
+
+/* Quote */
+
+.quote {
+  padding: 150px 250px;
+}
+
+.quote blockquote {
+  padding: 0 24px;
+}
+
+.quote p {
+  text-align: right;
 }
